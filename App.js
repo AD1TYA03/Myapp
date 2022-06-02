@@ -1,10 +1,19 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View , ImageBackground } from 'react-native';
+import CarItem from './components/carItems/index';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+     
+   
+
+     <CarItem name ={"Tesla X"} tagLine={"Starting at Awkat se bahar"} image={require('./assets/images/ModelX.jpeg')}/> 
+    
+
+      
+     
       <StatusBar style="auto" />
     </View>
   );
@@ -12,9 +21,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+   
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
   },
 });
+
