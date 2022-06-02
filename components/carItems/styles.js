@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 
   buttonContainer: {
     position: 'absolute',
-   marginTop:'560px',
+   marginTop:"550px",
     width: '100%',
   }
 });
